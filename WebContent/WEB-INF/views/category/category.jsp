@@ -11,8 +11,8 @@
 			<c:if test="${post_num_img_array[status.index] >0}">
 			<div class="listbox">
 				<div class="listleft">
-					<a class="titlea" href="/First_Spring_MVC/detail/${post_id_array[status.index]}"><br>${post_title}</a>
-					<span class="textspan"><br>${post_content_filtered_text_array[status.index]}</span>
+					<a class="titlea_one_pic" href="/First_Spring_MVC/detail/${post_id_array[status.index]}"><br>${post_title}</a>
+					<span class="textspan_one_pic">${post_content_filtered_text_array[status.index]}</span>
 					<div class="affbox">
 						<span><br>来源:${post_author_array[status.index]}</span>
 						<span class="timespan"><br>${post_time_array[status.index]}</span>
