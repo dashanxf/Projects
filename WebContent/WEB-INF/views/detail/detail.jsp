@@ -5,7 +5,7 @@
 <div class="qcontent">
     <div class="aticletitle"><br>${post_title}</div>
     <div class="affbox">
-        <span><br>${post_author_name}</span>
+        <span>${post_author_name}</span>
         <span class="timespan">{{contents.format_time}}</span>
         <div class="clearboth"></div>
     </div>
